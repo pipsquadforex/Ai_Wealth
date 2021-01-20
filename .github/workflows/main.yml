@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: ROBOT
+
+# Controls when the action will run. 
+on:Monday-Friday
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: Metatrader4[ main ]
+  pull_request:
+    branches:Autotrading [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:Metatrader 4
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:Globex360,veracity markets,trade245,cm trading
+  # This workflow contains a single job called "build"
+  build:Metatrader 4 
+    # The type of runner that the job will run on
+    runs-on:Metatrader 4
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:open Metatrader 4 then click on Autotrading then go to navigator then click expert Advisors then double click on MEGANTA 2020 NEW UPDATED VERSION then click ok
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello,Traders
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run:Metatrader4 
+          echo Add other actions to build,
+          echo test, and deploy your project.
