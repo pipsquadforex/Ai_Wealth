@@ -22,8 +22,8 @@ jobs:Globex360,veracity markets,trade245,cm trading
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:open Metatrader 4 then click on Autotrading then go to navigator then click expert Advisors then double click on MEGANTA 2020 NEW UPDATED VERSION then click ok
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      # Checks-out your repository under Metatrader4 mql4, so your job can access it
+      - uses: Globex360 
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
