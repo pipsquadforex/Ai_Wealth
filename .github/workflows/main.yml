@@ -26,7 +26,7 @@ jobs:Globex360,veracity markets,trade245,cm trading
       - uses: Globex360 
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Anthony 
         run: echo Hello,Traders
 
       # Runs a set of commands using the runners shell
